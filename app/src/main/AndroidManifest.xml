@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.syedrizwan.basics.javabasics">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BasicDataTypes"
+            android:label="@string/title_activity_basic_data_types"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VariablesTypes"
+            android:label="@string/title_activity_variables_types"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ModifierTypes"
+            android:label="@string/title_activity_modifier_types"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Operators"
+            android:label="@string/title_activity_operators"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Loops"
+            android:label="@string/title_activity_loops"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Numbers"
+            android:label="@string/title_activity_numbers"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Characters"
+            android:label="@string/title_activity_characters"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Strings"
+            android:label="@string/title_activity_strings"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Arrays"
+            android:label="@string/title_activity_arrays"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Classes"
+            android:label="@string/title_activity_classes"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Objects"
+            android:label="@string/title_activity_objects"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Methods"
+            android:label="@string/title_activity_methods"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syedrizwan.basics.javabasics.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
